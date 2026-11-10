@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- SEO 核心設定 -->
+  <title>大二影展專題｜話外之協：走出話裡的想像，看見話外的東協</title>
+  <meta name="description" content="大二影展專題《話外之協》，以臺中東協廣場為主題，透過幽靈船與神秘寶藏的故事，探索廣場中的異國美食、多元文化與人情，重新認識東協廣場。">
+  <meta name="keywords" content="影展專題, 話外之協, 東協廣場, 多元文化, 異國美食, 臺中行銷, 尋寶故事">
+  <meta name="author" content="陳以芊">
+
+  <!-- Open Graph 社交標籤 -->
+  <meta property="og:title" content="大二影展專題｜話外之協：走出話裡的想像，看見話外的東協">
+  <meta property="og:description" content="東協廣場本身，就是一座等待被重新發現的寶藏。透過尋寶旅程，看見不同文化與生活交會的樣貌。">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="images/cover.jpg">
+
+  <!-- 外部樣式表引入 -->
+  <link rel="stylesheet" href="2css/style.css">
+</head>
+<body>
+
+  <!-- 頂部主要導覽列 (Navbar) -->
+  <header class="main-header">
+    <div class="logo">
+      <a href="index.html">🎬 影展專題 <span>話外之協</span></a>
+    </div>
+    <nav class="top-nav">
+      <ul>
+        <li><a href="index.html" class="active">專題首頁</a></li>
+        <li><a href="film.html">影片與分鏡</a></li>
+        <li><a href="team.html">團隊與企劃</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- 核心版面容器：側邊欄 + 主內容 (Grid / Flexbox 佈局) -->
+  <div class="layout-wrapper">
+
+    <!-- 側邊欄 (Sidebar) -->
+    <aside class="sidebar">
+      <div class="sidebar-box">
+        <h3>影展單元導覽</h3>
+        <ul class="side-menu">
+          <li><a href="#hero">專題前言</a></li>
+          <li><a href="#featured-video">主要參展影片</a></li>
+          <li><a href="#highlights">企劃核心價值</a></li>
+          <li><a href="#project-info">展出資訊</a></li>
+        </ul>
+      </div>
+
+      <div class="sidebar-box info-box">
+        <h4>專題核心精神</h4>
+        <p>「走出話裡的想像，看見話外的東協。」</p>
+        <span class="tag">#多元文化探索</span>
+        <span class="tag">#重新認識東協</span>
+      </div>
+    </aside>
+
+    <!-- 主內容區塊 (Main Content) -->
+    <main class="content-area">
+
+      <!-- 主視覺 Banner (Hero) -->
+      <section id="hero" class="hero-section">
+        <div class="hero-overlay">
+          <h2>大二影展專案：《話外之協》</h2>
+          <p class="subtitle">走出話裡的想像，看見話外的東協</p>
+          <a href="#featured-video" class="btn-primary">觀看參展短片</a>
+        </div>
+      </section>
+
+      <!-- 參展影片播放區 -->
+      <section id="featured-video" class="section-card">
+        <div class="section-title">
+          <h2>精選參展作品</h2>
+          <p>以幽靈船與神秘寶藏的傳說為開端，帶領觀眾探索東協廣場的美食、文化與人情。</p>
+        </div>
+        <div class="video-container">
+          <iframe width="560" height="315" 
+          src="https://www.youtube.com/embed/J7rUy_4kQ4s" 
+          title="話外之協｜東協廣場影展專題" 
+          frameborder="0" 
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+          referrerpolicy="strict-origin-when-cross-origin" 
+          allowfullscreen>
+        </iframe>
+        </div>
+      </section>
+
+      <!-- 核心企劃亮點 (CSS Grid 呈現) -->
+      <section id="highlights" class="section-card">
+        <div class="section-title">
+          <h2>專題策展亮點</h2>
+          <p>從場域特色到文化探索，重新發現東協廣場的多元樣貌。</p>
+        </div>
+
+        <div class="grid-system">
+          <article class="grid-card">
+            <div class="card-tag">多元文化</div>
+            <h3>跨國文化交會</h3>
+            <p>東協廣場匯集不同國家的族群與店家，從異國美食、特色商品到日常生活，呈現不同文化交會的真實樣貌。</p>
+          </article>
+
+          <article class="grid-card">
+            <div class="card-tag">場域特色</div>
+            <h3>便利生活機能</h3>
+            <p>鄰近臺中火車站，結合餐飲、購物、3C 與休閒娛樂等多元業態，提供消費者便利且豐富的一站式體驗。</p>
+          </article>
+
+          <article class="grid-card">
+            <div class="card-tag">創意概念</div>
+            <h3>尋找真正的寶藏</h3>
+            <p>以幽靈船與神秘寶藏的傳說展開尋寶旅程，透過食物、人與文化的探索，發現東協廣場真正珍貴的文化、故事與人情。</p>
+          </article>
+        </div>
+      </section>
+
+      <!-- 專題展覽基本資料 -->
+      <section id="project-info" class="section-card">
+        <div class="section-title">
+          <h2>專案檔案概況</h2>
+        </div>
+        <div class="info-table-container">
+          <table class="styled-table">
+            <thead>
+              <tr>
+                <th>項目</th>
+                <th>內容說明</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>專案題目</td>
+                <td>大二行銷影展專題：《話外之協》</td>
+              </tr>
+              <tr>
+                <td>場域主體</td>
+                <td>臺中市中區綠川西街 135 號（東協廣場／第一廣場）</td>
+              </tr>
+              <tr>
+                <td>核心訴求</td>
+                <td>透過尋寶故事呈現東協廣場的多元文化與生活樣貌，讓大眾走出既有印象，重新認識這個地方。</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+    </main>
+  </div>
+
+  <!-- 頁尾宣告 -->
+  <footer class="main-footer">
+    <p>&copy; 2026 大二影展專題成果發表 ｜ 逢甲大學行銷系</p>
+  </footer>
+
+</body>
+</html>
+
